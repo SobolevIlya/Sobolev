@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>Вакансия: Junior Frontend Developer</h1>
+        <div style="display: flex;">
+            <img src="ava.png" width="200" height="200" align="top" />
+            <div style="margin-left: 20px;">
+                <p>Имя: Илья</p>
+                <a href="ava.png">Ссылка на репозиторий в GitHub</a>
+                <p>Опыт работы: нет</p>
+            </div>
+        </div>
+    </div>
+    <div style="margin-top: 20px;">
+        <span>Дата собеседования:   </span>
+        <input type="date">
+    </div> 
+    <div style="display: inline-block;">
+        <p>Уровень английского:</p>
+        <input type="radio" name="englevel" value="bad"> Плохо
+        <input type="radio" name="englevel" value="middle"> Средне
+        <input type="radio" name="englevel" value="good"> Хорошо
+        <input type="radio" name="englevel" value="exelent"> Превосходно
+    </div>    
+    <div style="margin-top: 20px;">
+        <span>Ключевые навыки</span>
+        <ul>
+            <li>HTML</li>
+            <li>CSS/LESS</li>
+            <li>JavaScript</li>
+        </ul>
+    </div>     
+    <div>
+        <input type="text" name="skill" placeholder="Введите навык">
+        <button style="margin-left: 20px;">Добавить в список</button>
+    </div> 
+    <div style="margin-top: 25px;">
+        <span>Коммуникабельность: </span>
+        <select name="communic">
+            <option disabled selected="selected">Выберите тип комуникабельности</option>
+            <option value="dom">Доминантный</option>
+            <option value="introvert">Интровертный</option>
+            <option value="mobille">Мобильный</option>
+            <option value="regid">Регидный</option>
+        </select>
+    </div> 
+    <div style="margin-top: 20px;">
+        <span>Желаемая з/п:</span>
+        <input type="number" name="money" placeholder="Введите сумму">
+    </div>
+    <div style="display: inline-block;">
+        <p>Подходит по критериям:</p>
+        <input type="checkbox" name="kriter" value="english"> Знание английского
+        <input type="checkbox" name="kriter" value="zp"> Оклад
+        <input type="checkbox" name="kriter" value="skills"> Навыки
+        <input type="checkbox" name="kriter" value="insider"> Сразу видно, что свой человек
+    </div> 
+    <div style="margin-top: 20px;">
+        <span>Образование, курсы и.т.п.</span>
+        <table border="1">
+            <tr>
+                <th>#</th>
+                <th>Сроки обучения</th>
+                <th>Наименование учебного заведения</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2 года</td>
+                <td>Курсы UX/UI дизайнер</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>4 года</td>
+                <td>МГУ Факультет вычислительной математики и кибернетики</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
