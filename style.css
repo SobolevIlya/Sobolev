@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+
 h1{
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Comfortaa', cursive;
 }
 .first_block{
     display: flex;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Comfortaa', cursive;
 }
 .second_block{
     margin-left: 20px;
@@ -19,10 +19,6 @@ h1{
     font-size: 20px;
 }
 
-input[type="radio"]{
-    
-}
-
 input[type="date"]{
     width: 200px;
     height: 50px;
@@ -32,7 +28,6 @@ input[type="date"]{
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
     font-family: 'Comfortaa', cursive;
     text-align: center;
-    color: rgb(2, 2, 2);
 }
 input[type="date"]:hover{
     color: #7cc9f0;
@@ -57,7 +52,6 @@ input[type="date"]:hover{
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
     font-family: 'Comfortaa', cursive;
     text-align: left;
-    color: rgb(2, 2, 2);
     padding-left: 15px;
     text-align: center;
 }
@@ -71,16 +65,58 @@ input[type="text"]{
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
     font-family: 'Comfortaa', cursive;
     text-align: left;
+    padding-left: 15px;
+}
+
+input[type="number"]{
+    width: 200px;
+    height: 35px;
+    opacity: 0.8;
+    border: 2px solid #959595;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Comfortaa', cursive;
+    text-align: left;
+    padding-left: 15px;
+    text-align: left;
+}
+
+.comun select{
+    width: auto;
+    height: 50px;
+    margin-left: 10px;
+    opacity: 0.8;
+    border: 2px solid #959595;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Comfortaa', cursive;
+    text-align: left;
     color: rgb(2, 2, 2);
     padding-left: 15px;
 }
 
+.money span{
+    font-family: 'Comfortaa', cursive;  
+    margin-right: 10px;
+    font-weight: bold;
+}
+
 .english_block p{
     font-family: 'Comfortaa', cursive;
+    font-weight: bold;
 }
 
 .english_block label{
     font-family: 'Comfortaa', cursive;  
+}
+
+.criteria label{
+    font-family: 'Comfortaa', cursive;
+}
+
+.criteria p{
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
 }
 
 input::-webkit-outer-spin-button,
@@ -97,9 +133,15 @@ input::-webkit-inner-spin-button {
 .add_in_list{
     margin-left: 20px;
 }
-.conication{
+.comun{
     margin-top: 25px;
 }
+
+.comun span{
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+}
+
 .money{
     margin-top: 20px;
 }
@@ -112,8 +154,33 @@ input::-webkit-inner-spin-button {
 
 .main_skill span{
     font-family: 'Comfortaa', cursive;
+    font-weight: bold;
 }
 
 .main_skill li{
     font-family: 'Comfortaa', cursive;
+}
+
+.courses table{
+    border: 2px solid #cacaca;
+    border-collapse: collapse;
+    padding: 15px;
+    font-family: 'Comfortaa', cursive;
+    margin-top: 5px;
+}
+
+.courses th{
+    padding: 10px;
+    background-color: #dcdcdc;
+    font-family: 'Comfortaa', cursive;
+}
+
+.courses td{
+    padding: 10px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.courses span{
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
 }

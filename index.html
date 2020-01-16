@@ -46,7 +46,7 @@
         <input type="text" name="skill" placeholder="Введите навык">
         <button class="add_in_list">Добавить в список</button>
     </div> 
-    <div class="conication">
+    <div class="comun">
         <span>Коммуникабельность: </span>
         <select name="communic">
             <option disabled selected="selected">Выберите тип комуникабельности</option>
@@ -62,14 +62,18 @@
     </div>
     <div class="criteria">
         <p>Подходит по критериям:</p>
-        <input type="checkbox" name="kriter" value="english"> Знание английского
-        <input type="checkbox" name="kriter" value="zp"> Оклад
-        <input type="checkbox" name="kriter" value="skills"> Навыки
-        <input type="checkbox" name="kriter" value="insider"> Сразу видно, что свой человек
+        <input type="checkbox" name="kriter" value="english" id="english">
+        <label for="english"> Знание английского</label>
+        <input type="checkbox" name="kriter" value="zp" id="zp">
+        <label for="zp">Оклад</label>
+        <input type="checkbox" name="kriter" value="skills" id="skills">
+        <label for="skills">Навыки</label>
+        <input type="checkbox" name="kriter" value="insider" id="insider">
+        <label for="insider">Сразу видно, что свой человек</label>
     </div> 
     <div class="courses">
         <span>Образование, курсы и.т.п.</span>
-        <table border="1">
+        <table>
             <tr>
                 <th>#</th>
                 <th>Сроки обучения</th>
