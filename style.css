@@ -1,0 +1,30 @@
+.first_block{
+    display: flex;
+}
+.second_block{
+    margin-left: 20px;
+}
+.third_block{
+    margin-top: 20px;
+}
+.english_block{
+    display: inline-block;
+}
+.main_skill{
+    margin-top: 20px;
+}
+.add_in_list{
+    margin-left: 20px;
+}
+.conication{
+    margin-top: 25px;
+}
+.money{
+    margin-top: 20px;
+}
+.criteria{
+    display: inline-block;
+}
+.courses{
+    margin-top: 20px;
+}
